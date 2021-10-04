@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = gregoire.vallette@gmail.com
+	name = Gregoire Vallette
