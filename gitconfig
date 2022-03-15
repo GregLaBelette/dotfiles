@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-  editor = code
+  editor = code -n -w
 
 [alias]
   co = checkout
@@ -44,11 +44,9 @@
 [push]
 	default = simple
 
-[branch "master"]
-  mergeoptions = --no-edit
-
 [pull]
   rebase = false
 [user]
 	email = gregoire.vallette@gmail.com
 	name = Gregoire Vallette
+

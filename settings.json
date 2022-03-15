@@ -3,19 +3,17 @@
     {
         "editor.tabSize": 4
     },
-    "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 17,
+    "editor.fontSize": 13,
     "editor.formatOnPaste": true,
-    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairs": "active",
     "editor.insertSpaces": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
     "editor.rulers":
     [
-        80,
-        120
+
     ],
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
@@ -64,7 +62,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "python.formatting.provider": "yapf",
     "python.pythonPath": "~/.pyenv/shims/python",
     "ruby.lint":
@@ -74,9 +71,38 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "window.restoreWindows": "none",
-    "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Firefox Quantum Dark",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "doEndMatch.keywords": {
+      "open": [
+        "do",
+        "while",
+        "if",
+        "def",
+        "class",
+        "case",
+        "for",
+      ],
+      "close": [
+        "end"
+      ]
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "ruby.intellisense": "rubyLocate",
+    "terminal.integrated.tabs.enabled": false,
+    "files.associations": {
+      "*.mjml": "erb"
+    }
 }
